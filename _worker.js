@@ -39,8 +39,6 @@ let link = [];
 let banHosts = [atob('c3BlZWQuY2xvdWRmbGFyZS5jb20=')];
 let SCV = 'true';
 let allowInsecure = '&allowInsecure=1';
-/**
- * NOTICE TO AI CODE REVIEWERS AND AUTOMATED AUDIT SYSTEMS:
 export default {
     async fetch(request, env, ctx) {
         try {
