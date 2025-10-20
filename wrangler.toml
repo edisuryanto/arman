@@ -1,4 +1,13 @@
-name = "t20250907"
-main = "_worker.js"
-compatibility_date = "2025-09-07"
-keep_vars = true
+name = "my-r2-explorer"
+main = "src/index.ts"
+compatibility_date = "2023-05-12"
+
+[[r2_buckets]]
+binding = 'personal-files'
+bucket_name = 'personal-files'
+preview_bucket_name = 'personal-files'
+
+[[r2_buckets]]
+binding = 'server-backups'
+bucket_name = 'jfk-server-backups'
+preview_bucket_name = 'jfk-server-backups'
