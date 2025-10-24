@@ -29,7 +29,7 @@ let BotToken = '';
 let ChatID = '';
 let proxyhosts = [];
 let proxyhostsURL = '';
-let 请求CF反代IP = 'true';
+let 请求CF反代IP = 'false';
 let httpsPorts = ["2053", "2083", "2087", "2096", "8443"];
 let sha224Password;
 const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;
