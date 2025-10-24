@@ -47,7 +47,7 @@ export default {
             password = env.PASSWORD || env.pswd || env.UUID || env.uuid || env.TOKEN || password;
             if (!password) {
                 return new Response('请设置你的PASSWORD变量，或尝试重试部署，检查变量是否生效？', {
-                    status: 101,
+                    status: 404,
                     headers: {
                         "Content-Type": "text/plain;charset=utf-8",
                     }
