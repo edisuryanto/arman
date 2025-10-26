@@ -24,7 +24,7 @@ let addressesapi = [];
 let addressescsv = [];
 let DLS = 8;
 let remarkIndex = 1;//CSV备注所在列偏移量
-let FileName = 'arman';
+let FileName = 'edisuryanto';
 let BotToken = '';
 let ChatID = '';
 let proxyhosts = [];
@@ -34,7 +34,7 @@ let httpsPorts = ["2053", "2083", "2087", "2096", "8443"];
 let sha224Password;
 const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;
 let proxyIPPool = [];
-let path = '/arman';
+let path = '/gacor';
 let link = [];
 let banHosts = [atob('c3BlZWQuY2xvdWRmbGFyZS5jb20=')];
 let SCV = 'true';
