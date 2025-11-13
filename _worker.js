@@ -12,10 +12,13 @@ let socks5Address = '';
 let enableSocks = false;
 let enableHttp = false;
 const expire = false;
+
+// Constant
 const horse = "dHJvamFu";
 const flash = "dm1lc3M=";
 const v2 = "djJyYXk=";
 const neko = "Y2xhc2g=";
+
 let proxyIPs;
 let socks5s;
 let go2Socks5s = [
